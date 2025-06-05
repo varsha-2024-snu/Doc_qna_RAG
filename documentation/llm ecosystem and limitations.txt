@@ -1,0 +1,29 @@
+ LLM Ecosystem & Limitations
+
+Llm- large language models
+
+Llm’s are predicted to contribute to 7% of world gdp. They indeed are powerful resources, but they are more like “unguided autocomplete engines” they have a lot of external factors that power them.
+
+Llms are suitable for taska like:
+Ideation
+Faster coding and debugging
+Unblocking the writer’s block, etc
+
+A major problem with llms is hallucination (responses by the llm model that are non-sensible and sometimes is far from the input prompt)
+
+There are ways to minimaize hallucination:
+-> prompt engineering: formatting the prompt in a right way by including all the features needed with the proper background information.
+-> RAG (retrieval augmented generation)
+
+Llms usually perform on parametric knowledge learnt during the model training phase
+
+We can selectively insert relevant information into our prompts, by using RAG.
+Naive method
+Agent method
+Guardrails method
+
+Most of the common conversational agents use the react framework (not the js framework) RE-reason, ACT
+
+Rag can give the model a new knowledge source, by reducing hallucinations.
+
+It can further support guard rails that can implement a sort of barrier to the llm to stop itself from responding to certain sensitive questions.
