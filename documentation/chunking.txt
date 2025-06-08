@@ -1,0 +1,23 @@
+Chunking strategies for llm applications:
+
+chunking-> process of splitting large docs into smaller, meaningful segments called chunks. Its mainly used in vector-based retrieval systems.
+
+Benefits:
+Semantic relevance can be ensured
+Helps in retrieval and contextual grounding
+Ensures token limits
+
+Factors affecting chunking strategy:
+The type of content, like webpages or pdfs, paragraph or code etc
+Type of embedding model
+The quality of query
+Token limits
+
+Types of chunking strategy:
+Fixed size chunking
+Sentence chunking
+Recursive chunking
+markdown/latex chunking
+Semantic chunking
+
+Semantic chunking: the document is broken into sentences, then they further form sentence groups. Then each group is separately embedded. Distance between each groups are measured.
