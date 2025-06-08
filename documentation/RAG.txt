@@ -1,0 +1,26 @@
+Retrieval augmented generation:
+
+Rag is used in gen ai applications that enhances llms by retrieving relevant data from the external knowledge base. -> it can help with feeding in latest info to the llm model that has been not updated after 2021.
+
+Rag is mainly used to cope up with the limitations of llms like:
+Static knowledge: knowledge is not updated after a  period of time.
+ It does not have updates about latest tech and current affairs.
+It does not provide domain expertise, its too generalised even after fine tuning
+It mostly does not cite sources, masking transparency.
+Fine tuning is expensive
+
+Rag basically helps solve the problem of outdated data and hallucinations.
+
+The flow of rag:
+
+User query —---> semantic search —--> context injection —-> LLM response generation
+
+Semantic search: instead of just searching keywords , content is found by connecting the similar meaning to the query.
+
+Context window: temporary memory spaces. Stores info during runtime.
+
+Rag vs finetuning:
+
+Finetuning is like cut-shorting the domain of knowledge of the llm to just focus on the main subject. Even though its fine tuned, the knowledge is still generalised.
+
+But rag gives specialised knowledge base to the llm, allowing it to give more expertise to the responses.
