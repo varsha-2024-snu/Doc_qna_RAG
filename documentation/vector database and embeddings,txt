@@ -1,0 +1,39 @@
+Vector database and embeddings
+What exactly is a vector database?
+It is a special type of database that stores “data embeddings” instead of just raw data. It allows really fast retrieval and similarity search, all useful components for RAG.
+
+But then, what are data embeddings?
+Data or vector ebeddings, is a type of representation of the semantic information of the data so that the AI can get a better understanding of it. They understand ai to identify and understand patterns, relationships and structures within the input data.
+
+It is basically like an llm embeddings model converting the raw input textual data into a series of large alphanumeric string that only the AI can understand for better processing.
+
+Embeddings are important because ml algorithms usually work with numbers other than raw data
+
+How are embeddings created?
+
+Manual method (like feature engineering): it uses domain knowledge for choosing the important features. Its not scalable
+Automated method (model based): uses neural networks to convert data into vectors.
+Usually high dimensional, dense
+
+
+
+Common models: GLoVE, BERT
+
+
+Vector representations: 
+
+Vectors basically let us measure similarity among the data components.
+
+To measure how similar two data objects are, we calculate the dist between their vectors.
+Distance metrics:
+Euclidean dist
+Manhattan dist
+Cosine similarity
+Chebyshev dist
+
+The smaller the distance==the similar the items
+
+Similarity search or vector search-> finding the most similar data objects through embeddings
+
+KNN-K nearest neighbours
+ANN- approximate nearest neighbours
