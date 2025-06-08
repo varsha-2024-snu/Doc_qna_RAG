@@ -1,0 +1,33 @@
+Datatypes in genai:
+
+Structured vs unstructured data
+
+Structured- has proper format and schema rules. Like excel sheet, sql databases, tabular data etc
+
+Unstructured- has no fixed schema for the data. Any type of data like audio, video, images, textual etc can be present. Its mainly in the form of pdf’s and webpages.
+
+Structured and unstructured mainly differ in:
+Format: structured is predefined and rigid, unstructured is not predefined
+Storage: structured is stored in relational databases or data warehouses, unstructured is stored in non relational databases or data lakes.
+Use cases: structured is used machine learning, unstructured is used in natural language processing
+Complexity: structured is easier,  unstructured is more complex
+
+Sql -> structured query language , is used to perform operations on structured databases.
+
+Though structured data is easier to use, it comes with limitations:
+Due to its rigid schema the uage is limited to certain types of data. It has minimal flexibility.
+It also has limited storage options.
+
+Unstructured includes a wide variety of data including emails, text docs, social media posts, transcripts, messages etc.
+Even non textual content like images, videos, audio files etc are included.
+
+Unstructured data expresses a more human likeable form of data expression with no rigid schemas, hence its mainly used in tasks that involve NLP.
+Like:
+RAG
+Gen ai
+Chatbot text analysis
+Customer behavior and sentiment analysis.
+
+The main disadvantage with unstructured data is that it requires a lot of expertise and specialised tools to handle the complex behaviour. It is also a challenge to format that unstructured data.
+
+Semi-structured data- its a bridge between structured and unstructured data. (used in web scraping and data integration)
