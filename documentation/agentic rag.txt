@@ -1,0 +1,32 @@
+Agentic rag:
+
+Any ai that can plan and execute actions one its own are agentic ai. They have function calling abilities.
+
+Core characteristics of agentic ai:
+Memory
+Query routing and decision making
+Tool use via api
+
+Agentic rag:
+
+Rag systems that are enhanced with agentic ai are agentic rag
+
+Traditional rag’s have a single knowledge source and are static, agentic rag is dynamic and can have multiple knowledge source.
+Agentic rag is much more proactive and adaptive
+Agentic is much more intelligent than traditional
+
+
+With so much benefits, agentic rag also comes with limitations:
+Very costly, cost increases with the number of agents.
+Lower latency
+Agents maybe unreliable at times.
+Chances of hallucinations still exist.
+
+Common frameworks: langchain, llamaindex, langraph
+
+Types of agents in agentic rag:
+Routing agents
+Query planning agents
+ReAct agents
+Plan and execute agents
+
