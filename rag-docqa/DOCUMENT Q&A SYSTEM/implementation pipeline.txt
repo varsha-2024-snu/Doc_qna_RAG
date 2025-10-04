@@ -1,0 +1,9 @@
+Implementation pipeline:
+
+-> uploading: First, 3 pdf files were uploaded. I uploaded class 10 physics chapters.
+-> pdf loading using pypdfloader
+->then went on with “chunking” of the content extracted from the pdf files. Went with the recursive chunking method. (like paragraphs, then sentences, then words)
+->then converted the chunks into embeddings with gemini embeddings.
+-> these embeddings were then stored in chromaDB
+-> the vector store is then converted to a retriever that does similarity based look-ups.
+-> then queries were executed and results were generated.
