@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# OS
+.DS_Store
+
+# Env & local data
+.env
+data/raw/*
+!data/raw/.gitkeep
+index/*
+!index/chroma/
+!index/chroma/.gitkeep

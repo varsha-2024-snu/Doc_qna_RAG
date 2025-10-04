@@ -1,0 +1,38 @@
+cat > pyproject.toml << 'EOF'
+[project]
+name = "ragdoc"
+version = "0.1.0"
+description = "Document Q&A (RAG) with Gemini + Chroma + FastAPI"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "pydantic>=2",
+  "python-dotenv",
+  "langchain>=0.3.0",
+  "langchain-google-genai>=2.0.0",
+  "langchain-community>=0.3.0",
+  "langchain-chroma>=0.1.2",
+  "chromadb>=0.5.5",
+  "pypdf>=4.0.0",
+  "tiktoken",
+  "structlog",
+  "ragas>=0.2.4",
+  "datasets",
+  "evaluate",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+EOF
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ragdoc*"]
